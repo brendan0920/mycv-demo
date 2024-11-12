@@ -1,0 +1,6 @@
+<h2>Education</h2>
+<ul>
+    <li *ngFor="let education of educationList">
+        <strong>{{ education.degree }}</strong> from {{ education.institution }} ({{ education.year }})
+    </li>
+</ul>
